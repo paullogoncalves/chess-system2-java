@@ -153,7 +153,7 @@ public class ChessMatch {
 		return false;
 	}
 	
-	private boolean testCheckMate(Color color) {
+	private boolean testCheckMate(Color color) throws IllegalAccessException {
 		if (!testCheck(color)) {
 			return false;
 		}
